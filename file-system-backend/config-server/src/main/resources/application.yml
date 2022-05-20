@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - file://${user.home}/projects/learn-spring-cloud-config/file-system-backend/local-config-repo
+  security:
+    user:
+      name: admin
+      password: admin
+  profiles:
+    active: native
+server:
+  port: 8888
+
