@@ -41,4 +41,5 @@
 ### References
 
 https://cloud.spring.io/spring-cloud-config/reference/html/#_file_system_backend
+https://developer.okta.com/blog/2020/12/07/spring-cloud-config
 
