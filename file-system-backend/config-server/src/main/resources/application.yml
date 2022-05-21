@@ -4,7 +4,7 @@ spring:
       server:
         native:
           search-locations:
-            - file://${user.home}/projects/learn-spring-cloud-config/file-system-backend/local-config-repo
+            - file://${user.home}/projects/learn-spring-cloud-config/file-system-backend/config-repo
   security:
     user:
       name: admin
